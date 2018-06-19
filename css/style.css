@@ -1,11 +1,6 @@
 /*----------------------------------------------------
-@File: Default Styles
-@Author: Colorlib
-@URL:https://colorlib.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
+
 
 This files contents are outlined below.
 
@@ -30,6 +25,12 @@ This files contents are outlined below.
     19. Contact
     20. Footer
     21. Responsive
+
+    color 1 #343d46
+    color 2 #4f5b66
+    color 3 #65737e
+    color 4 #a7adba
+    color 5 #c0c5ce
 
 
 ----------------------------------------------------*/
@@ -89,7 +90,7 @@ This files contents are outlined below.
   padding-top: 90px;
   position: relative;
 }
-.tittle h2:after {
+.tittle h2:after { 
   content: "";
   position: absolute;
   background: #f6b60b;
@@ -186,7 +187,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------*/
 /* Top header */
 .top_header_area {
-  background: #111f29;
+  background: #4f5b66;
 }
 .top_header_area .top_nav li a {
   font: 400 14px/50px "Roboto", sans-serif;
@@ -254,7 +255,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End Top header 2 */
 /* Header Aera */
 .header_aera {
-  background: #fff;
+  background: #c0c5ce;
   border-radius: 0;
   border: 0;
   margin: 0;
@@ -449,11 +450,11 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   left: 0;
 }
 .slider_area .slider_inner .camera_caption div h5 {
-  color: #f6b60b;
+  color: white;
   font: 400 24px "Roboto", sans-serif;
 }
 .slider_area .slider_inner .camera_caption div h3 {
-  color: #fff;
+  color: #f6b60b;
   font: 400 30px "Roboto", sans-serif;
   padding-top: 27px;
 }
@@ -469,7 +470,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font: 700 18px/59px "Roboto", sans-serif;
   width: 180px;
   text-align: center;
-  background: #f6b60b;
+  background: #4f5b66;
   display: block;
   text-shadow: none;
   margin: 0 auto;
@@ -595,7 +596,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End Banner Area */
 /*--------------------------------------------------*/
 .professional_builder {
-  background: #f5f5f5;
+  background: #a7adba;
   padding-top: 80px;
   padding-bottom: 50px;
 }
@@ -605,7 +606,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .professional_builder .builder_all .builder i {
   font-size: 48px;
-  color: #f6b60b;
+  color: #343d46;
   padding-bottom: 35px;
 }
 .professional_builder .builder_all .builder h4 {
