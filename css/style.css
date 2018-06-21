@@ -983,7 +983,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   overflow: hidden;
   position: relative;
   margin-bottom: 30px;
-  margin: 0 auto;
 }
 .our_team_area .team_row .team_membar img {
   max-width: 100%;
