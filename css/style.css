@@ -570,7 +570,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #a7adba;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1959,6 +1959,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 /* End Map Css */
 /* All contact Info Css */
+.all_contact_info {
+  background-color: #c0c5ce;
+}
 .all_contact_info .contact_row {
   padding: 100px 0;
 }
@@ -1978,8 +1981,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   bottom: 0;
 }
 .all_contact_info .contact_row .contact_info p {
-  font: 400 14px/26px "Roboto", sans-serif;
-  color: #555555;
+  font: 500 35px/46px "Roboto", sans-serif;
+  
+  color: #343d46;
   padding-top: 30px;
 }
 .all_contact_info .contact_row .contact_info .location {
