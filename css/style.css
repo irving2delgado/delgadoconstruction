@@ -305,6 +305,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   height: 80px;
   border-bottom: 1px solid transparent;
 }
+.navbar-header h1 {
+  text-decoration: none;
+}
 .header_aera .navbar-header .navbar-brand {
   padding-top: 39px;
 }
