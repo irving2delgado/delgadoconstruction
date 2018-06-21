@@ -455,10 +455,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .slider_area .slider_inner .camera_caption div h3 {
   color: #f6b60b;
-  font: 400 30px "Roboto", sans-serif;
+  font: 400 50px "Roboto", sans-serif;
   font-weight:600;
   padding-top: 27px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
 }
 .slider_area .slider_inner .camera_caption div p {
   padding-top: 60px;
@@ -816,7 +816,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .our_services_area .portfolio_inner_area .portfolio_filter ul li a {
   font: 400 14px "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: #343d46;
 }
